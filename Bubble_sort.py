@@ -5,7 +5,7 @@
 list1= [23,65,6,2,0]
 print(list1)#unsorted list
 for j in range(len(list1)-1):
-    for i in range(len(list1)-1):
+    for i in range(len(list1)-1-j):
         if list1[i] > list1[i+1]:
             list1[i] , list1[i+1] = list1[i+1] , list1[i]
 print(list1)

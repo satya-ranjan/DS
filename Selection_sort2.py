@@ -1,4 +1,5 @@
-list1=[22,498,0,8,43,3,3]
+num = int(input("How many numbers you want to enter:"))
+list1=[int(input("Enter number:")) for x in range(num)]
 print(list1)
 for i in range (len(list1)-1):
     m_ind= i

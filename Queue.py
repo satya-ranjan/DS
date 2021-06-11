@@ -28,8 +28,7 @@ def display():
 
 
 
-n=("enter the number of element you want to add")
-
+n=int(input("enter the number of element you want to add \n"))
 while True:
     choice = int(input("Select the operation 1.Add 2.Remove 3.Show 4.quite \n"))
     if choice==1:

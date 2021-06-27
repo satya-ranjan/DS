@@ -53,4 +53,21 @@ Perfect binary tree
 Balanced Binary tree
     in which height of left and right subtree defer by one
 
+
+
+    Binary search tree is a tree with following properties
+------------------------------------------------------------------
+
+1. The left subtree of a node contains only nodes with keys lesser than node"s key
+2. The right subtree of a node contains only nodes with keys greater than node's key
+3. The left subtree and rigt subtree each must also be a BST 
+    
+    Binary search tree (With duplicate values)
+-------------------------------------------------------------------
+some Books say 1.Duplicate values not allowed
+some books say 2. if the node is equal to the root/node left <= root/node < rigt then the node will be in 
+                  the left side tree
+some books say 3. if the nodes is equal to the root/nodes left < root/node <= right then the node will be in 
+                  the right sid of the tree    
 '''
+
